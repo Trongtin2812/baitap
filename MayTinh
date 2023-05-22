@@ -1,0 +1,17 @@
+public class MayTinh {
+    protected Object thongTin;
+    private String ten;
+     private String ip;
+     
+     public MayTinh(String ten, String ip) {
+         this.ten = ten;
+         this.ip = ip;
+     }
+     public void ThongTin() {
+         System.out.println("Ten may tinh:" + ten);
+         System.out.println("Dia chi IO:" + ip);
+           }
+
+    protected void thongTin() {
+    }
+}
