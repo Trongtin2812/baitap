@@ -1,0 +1,14 @@
+class MayTinhCoSan extends MayTinh {
+        private String heDieuHanh;
+
+        public MayTinhCoSan(String ten, String ip, String hedieuhanh){
+            super(ten, ip);
+            this.heDieuHanh = hedieuhanh;
+        }
+        @Override
+        public void thongTin(){
+            super.thongTin();
+            System.out.println(" Hệ Điều Hành: " + heDieuHanh);
+
+        }
+    }
