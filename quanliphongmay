@@ -1,0 +1,32 @@
+package quanliphongmay;
+import java.util.ArrayList;
+import java.util.List;
+
+public class quanliphongmay() {
+    danhSachMayTinh = new ArrayList<>();
+}
+public void themMayTinh(MayTinh mayTinh) {
+    danhSachMayTinh.add(mayTinh);
+}
+public  void hienThiDanhSachMayTinh() {
+    for (MayTinh mayTinh : danhsachMayTinh) {
+        mayTinh.thongTin();
+        System.out.println("-----------");
+      }
+    }
+}
+// Sử dụng chương trình
+public class Main {
+    public static void main(String[] args) {
+        QuanLyPhongMay quanlyPhongMay = new QuanLyPhongMay();
+        MayTinh maytinh1 = new MayTinh("Máy tính 1", "192.168.0.1");
+        MayTinhCo
+    }
+}
+}
+// Sữ dụng chương trình
+piblic class Main{
+    punlic static void main(String[] args){
+
+    }
+}
