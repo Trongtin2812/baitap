@@ -1,0 +1,13 @@
+public class MayTinhThue extends MayTinh {
+    private int thoiGianThue;
+
+    public MayTinhThue(String ten, String ip, int thoiGianThue){
+        super(ten, ip);
+        this.thoiGianThue = thoiGianThue;
+    }
+    @Override
+    public void thongTin(){
+          super.thongTin();
+    System.out.println("Thời gian thuê: " + thoiGianThue + "giờ");
+    }
+}
